@@ -7,12 +7,10 @@ function HomePage() {
   const username = scrumUser?.username;
 
   return (
-    <div>
+    <div className='min-h-screen w-screen bg-slate-200'>
       <Navigation />
-      <h2>Welcome to Home Page</h2>
-
-      <h2>Welcome to Home Page {username[0]}</h2>
-      {/* Add authenticated user content here */}
+      
+      <p></p>
     </div>
   );
 }
